@@ -1,0 +1,22 @@
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 10% 0px;
+}
+
+.sign__up__container {
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+body {
+  background: linear-gradient(90deg, #FFD59C 0%, #FFFFFF 100%) !important;
+}/*# sourceMappingURL=create-acc.css.map */

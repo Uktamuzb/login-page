@@ -1,0 +1,38 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title create accaunt
+        //- css link
+        link(rel="stylesheet", href="../crete-account/create-acc.css") 
+        link(rel="stylesheet", href="../login/login.css")
+        //- general styles
+        link(rel="stylesheet", href="../general-style/general-style.css") 
+    body 
+        main 
+            section.container
+                .page__container
+                    .sign__up
+                        .sign__up__container 
+                            .sign__up__box
+                                h1 Welcome Back!
+                                p.sign__up__text Enter your personal account to enter the website apps
+                                .sign__up__btn
+                                    button(type="submit")
+                                        a(href="../menu/index.html")  SIGN IN
+                    //- sign in
+                    .sign__in
+                        h1 Sign in
+                        .code 
+                            input(type="text")
+                            input(type="text")
+                            input(type="text")
+                        p.code__text or use your email password
+                        .email__pasword 
+                            input(type="text" placeholder="name")
+                            input(type="password" placeholder="email")
+                            input(type="password" placeholder="password")
+                        p.submit__btn
+                            button(type="submit") 
+                                a(href="../menu/index.html") Sign in

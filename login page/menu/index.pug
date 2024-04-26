@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title menu 
+        //- css
+        link(rel="stylesheet", href="menu.css")
+        //- general styles
+        link(rel="stylesheet", href="../general-style/general-style.css")
+    body 
+        main 
+            section
+                .menu__page 
+                    .menu__nav 
+                        .user__profil
+                            picture 
+                                img(src="./thumble/profil-img.png", alt="")
+                            .users__name 
+                                h1 name 
+                                h4 user@gmail.com
+                        .search 
+                            input(type="text", placeholder="🔎Search")
+                        .menu__btn 
+                            button(type="button") 
+                                a(href="../Login__web/Compiled-HTML/index.html") Dashboard
+                            button(type="button") Check in 
+                            button(type="button") Check Out
+                            button(type="button") Room Services
+                    .menu__window

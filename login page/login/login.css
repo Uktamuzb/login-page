@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(90deg, #E0E1E5 0.83%, #FFB24B 100%);
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 10% 0px;
+}
+
+.page__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 4.44px -4.44px 8.89px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: -4.44px 4.44px 8.89px 0px rgba(0, 0, 0, 0.25);
+  margin: 0px auto;
+  margin-top: 5%;
+  border: 1px solid;
+  width: 817.78px;
+  height: 516.44px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.code {
+  padding: 20px 0px;
+}
+
+.code input {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 19px;
+}
+
+.sign__title {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+
+.email__pasword {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email__pasword input {
+  width: 90%;
+  height: 30px;
+  border-radius: 10px;
+  margin: 5px 0px;
+  border: none;
+  background: rgb(238, 238, 238);
+  padding: 21px;
+}
+
+[placeholder] {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.sign__up {
+  height: 516.44px;
+}
+
+.sign__up__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background: rgb(255, 176, 83);
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+  color: #fff;
+}
+
+.sign__in,
+.sign__up {
+  width: 50%;
+}
+
+.sign__in,
+.sign__up__box {
+  padding: 25px;
+}
+
+.sign__up__box button {
+  background-color: rgb(255, 176, 83);
+  border: 3px solid white;
+}/*# sourceMappingURL=login.css.map */

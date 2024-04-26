@@ -1,0 +1,37 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title login
+        link(rel="stylesheet", href="login.css")
+        link(rel="stylesheet", href="general-style.css")
+    body 
+    
+        main 
+            section.container
+                .page__container
+                    //- sign in
+                    .sign__in
+                        h1.sign__title Sign in
+                        .code 
+                            input(type="text")
+                            input(type="text")
+                            input(type="text")
+                        p.code__text or use your email password
+                        .email__pasword 
+                            input(type="email" placeholder="Email")
+                            input(type="password" placeholder="password")
+                        p.email__pasword__text or use your email password
+                        p.submit__btn
+                            a(href="../crete-account/index.html")
+                                button(type="submit") Sign in 
+                    //- sign up
+                    .sign__up
+                        .sign__up__container 
+                            .sign__up__box
+                                h1.sign__title Hello, Hotelier!
+                                p.sign__up__text Register with your personal account to use this  apps
+                                .sign__up__btn
+                                    a(href="../crete-account/index.html")
+                                        button(type="submit") Sign up
